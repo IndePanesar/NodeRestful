@@ -1,0 +1,19 @@
+{
+  "name": "restful",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IndePanesar/NodeRestful.git"
+  },
+  "author": "I.S.Panesar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IndePanesar/NodeRestful/issues"
+  },
+  "homepage": "https://github.com/IndePanesar/NodeRestful#readme"
+}

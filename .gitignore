@@ -1,0 +1,10 @@
+node_modules
+.tmp
+.idea
+.sass-cache
+.eslintcache
+.vscode
+npm-debug.log
+coverage.html
+local
+package-lock.json
