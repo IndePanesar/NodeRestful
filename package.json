@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/IndePanesar/NodeRestful/issues"
   },
-  "homepage": "https://github.com/IndePanesar/NodeRestful#readme"
+  "homepage": "https://github.com/IndePanesar/NodeRestful#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
 }
