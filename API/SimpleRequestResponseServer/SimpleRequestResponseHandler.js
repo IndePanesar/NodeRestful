@@ -1,10 +1,10 @@
-var moment = require('moment')
+const moment = require('moment')
 // Handle simple GET request
 function handleRequest_Get(request, response){
   response.writeHead(200, {
       "Content-Type" : "text/plain"
   });
-  response.end(`GET - request received on ${moment().format('YYYY-MM-DD hh:mm:ss')}.`);
+  response.end(`GET - request received on ${moment().format('YYYY-MM-DD HH:mm:ss')}.`);
 }
 
 // Handle simple POST request
@@ -20,7 +20,7 @@ function handleRequest_Put(request, response){
     response.writeHead(200, {
         "Content-Type" : "text/plain"
     });
-    response.end(`PUT - request received on ${moment().format('YYYY-MM-DD hh:mm:ss')}.`);
+    response.end(`PUT - request received on ${moment().format('YYYY-MM-DD HH:mm:ss')}.`);
   }
 
   // Handle simple HEAD request
@@ -28,7 +28,7 @@ function handleRequest_Head(request, response){
     response.writeHead(200, {
         "Content-Type" : "text/plain"
     });
-    response.end(`HEAD - request received on ${moment().format('YYYY-MM-DD hh:mm:ss')}.`);
+    response.end(`HEAD - request received on ${moment().format('YYYY-MM-DD HH:mm:ss')}.`);
   }
 
   // Handle simple DELETE request
@@ -66,7 +66,7 @@ function handleBadRequest(request, response){
             handleRequest_Head(request, response);
             break;
         case "BAD":
-            handleBadRequest_Bad(request, response);
+            hadleBadRequest_Bad(request, response);
             break;
         default:
             handleBadRequest(request, response);
