@@ -1,3 +1,12 @@
+/* Testing of the SimpleRequestResponseHandler with Sinon mocking and using Nodeunit
+   To run the tests in the command line use
+   - from the test directory 
+    => nodeunit test_simpleServer
+   or 
+    => npm run testMock
+
+   Note some of the tests have datetime in 24hr clock and some don't.
+*/
 const sinon = require("sinon");
 exports.test_handleRequest_Get = function(test){
     const moment = require("moment");
